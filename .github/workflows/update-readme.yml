@@ -15,9 +15,6 @@ jobs:
       - name: Configurer Node.js
         uses: actions/setup-node@v2
 
-      - name: Installer les dépendances
-        run: npm install
-
       - name: Exécuter le script de mise à jour du README
         run: node scripts/update-readme.js
         env:
