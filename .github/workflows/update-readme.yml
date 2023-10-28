@@ -16,13 +16,13 @@ jobs:
       - name: Récupérer le code
         uses: actions/checkout@v2
 
-      - name: Configurer Node.js
-        uses: actions/setup-node@v2
-
       - name: Exécuter le script de mise à jour du README
         run: npm init
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurer Node.js
+        uses: actions/setup-node@v2
 
       - name: Exécuter le script de mise à jour du README
         run: node scripts/update-readme.js
