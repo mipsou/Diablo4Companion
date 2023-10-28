@@ -16,7 +16,7 @@
            run: |
              # Your update script goes here
            env:
-             GITHUB_TOKEN: ${{ secrets.TOKEN }}
+             GITHUB_TOKEN: ${{ secrets.update_readme }}
    
    name: Update README
 
@@ -64,4 +64,4 @@
             
                updateReadme().catch(console.error);
            env:
-             GITHUB_TOKEN: ${{ secrets.TOKEN }}
+             GITHUB_TOKEN: ${{ secrets.update_readme }}
