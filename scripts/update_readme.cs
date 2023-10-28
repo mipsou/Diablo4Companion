@@ -2,6 +2,7 @@ using System;
 using Octokit;
 using System.Linq;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 class Program
@@ -44,14 +45,34 @@ class Program
             var modifiedFiles = currentFiles.Intersect(previousFiles, new RepositoryContentEqualityComparer());
             var deletedFiles = previousFiles.Except(currentFiles, new RepositoryContentEqualityComparer());
 
-            // Affichez le nombre de fichiers ajoutés, modifiés et supprimés
-            Console.WriteLine($"Fichiers ajoutés : {addedFiles.Count()}");
-            Console.WriteLine($"Fichiers modifiés : {modifiedFiles.Count()}");
-            Console.WriteLine($"Fichiers supprimés : {deletedFiles.Count()}");
+            // Récupérez le nombre total de fichiers dans le répertoire
+            int totalFilesCount = currentFiles.Count;
+
+            // Calculez le pourcentage de fichiers mis à jour
+            double percentageUpdated = (double)(addedFiles.Count() + modifiedFiles.Count()) / totalFilesCount * 100;
+
+            // Mise à jour de la ligne 44 dans le README.md
+            string readmePath = "README.md"; // Chemin du fichier README.md
+            var existingReadme = await client.Repository.Content.GetAllContentsByRef(owner, repo, readmePath, branch);
+            string readmeContent = existingReadme.Content;
+
+            // Utilisez une expression régulière pour rechercher la ligne spécifique
+            string pattern = @"- 1440p_SMF_fr: SDR \(HDR off\) with font set to medium for the French language\. \*\*Progress: ([0-9.]+)%\*\*";
+            var regex = new Regex(pattern);
+
+            // Trouvez la correspondance dans le contenu du README
+            Match match = regex.Match(readmeContent);
+
+            if (match.Success)
+            {
+                // Mise à jour de la ligne avec le nouveau pourcentage
+                string updatedLine = regex.Replace(readmeContent, $"- 1440p_SMF_fr: SDR (HDR off) with font set to medium for the French language. **Progress: {percentageUpdated:F2}%**");
+                await client.Repository.Content.UpdateFile(owner, repo, readmePath, new UpdateFileRequest("Mise à jour du README.md", updatedLine, existingReadme.Sha, branch));
+            }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Erreur lors de la récupération des fichiers : {ex.Message}");
+            Console.WriteLine($"Erreur lors de la mise à jour du README.md : {ex.Message}");
         }
     }
 }
