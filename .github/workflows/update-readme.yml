@@ -17,23 +17,3 @@
              # Your update script goes here
            env:
              GITHUB_TOKEN: ${{ secrets.update_readme }}
-   
-   name: Update README
-
-   on:
-     schedule:
-       - cron: '0 * * * *' # Runs every hour
-
-   jobs:
-     build:
-       runs-on: ubuntu-latest
-
-       steps:
-         - name: Checkout code
-           uses: actions/checkout@v2
-
-         - name: Update README
-           run: |
-             node scripts/update-readme.js
-           env:
-             GITHUB_TOKEN: ${{ secrets.update_readme }}
