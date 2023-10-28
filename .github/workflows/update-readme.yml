@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Exécuter le script de mise à jour du README
-        run: ls -lar
+        run: npm init
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
