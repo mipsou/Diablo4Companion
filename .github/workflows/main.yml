@@ -24,7 +24,7 @@ jobs:
         python-version: 3.x  # Utilisez la version de Python dont vous avez besoin
 
     - name: Run Python script
-      run: python scripts/generate_readme.py
+      run: python scripts/update_readme.py
       working-directory: ${{ github.workspace }}
 
     - name: Commit and push changes
