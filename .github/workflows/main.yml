@@ -1,9 +1,11 @@
 name: Update-README
 
 on:
-  push:
-    branches:
-      - main  # Exécutez le workflow lorsque vous poussez sur la branche principale (personnalisez selon vos besoins)
+  schedule:
+    - cron: '*/2 * * * *' # Exécution toutes les heures
+  # push:
+  branches:
+    - main
 
 jobs:
   update-readme:
