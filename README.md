@@ -41,6 +41,7 @@ Currently the following system presets are included:
 - 1080p_SSF_es-US: SDR (HDR off) with font set to small for the Spanish (LA) language. **(22%)**
 - 1440p_SMF_en: SDR (HDR off) with font set to medium for the English language. **(47%)**
 - 1440p_HSF_en: HDR with font set to small for the English language. **(0%)**
+- 1440p_SMF_fr: SDR (HDR off) with font set to medium for the French language. **Progress: 0.00%** ![Progress Bar](https://progress-bar.dev/0.00)
 - 1600p_SMF_zh-CN: SDR (HDR off) with font set to medium for the Chinese (Simplified) language. **(0%)**
 - 2160p_HSF_en: HDR with font set to small for the English language. **(0%)**
 
