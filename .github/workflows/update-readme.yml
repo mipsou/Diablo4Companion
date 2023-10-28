@@ -19,6 +19,6 @@ jobs:
         run: npm install
 
       - name: Exécuter le script de mise à jour du README
-        run: node update-readme.js
+        run: node scripts/update-readme.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
