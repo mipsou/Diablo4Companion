@@ -2,8 +2,8 @@ const { Octokit } = require('@octokit/rest');
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
 async function updateReadme() {
-  const owner = 'Diablo4Companion'; // Remplacez par le nom du propriétaire de votre dépôt
-  const repo = 'nom-de-votre-repo'; // Remplacez par le nom de votre dépôt
+  const owner = 'mipsou'; // Remplacez par le nom du propriétaire de votre dépôt
+  const repo = 'Diablo4Companion'; // Remplacez par le nom de votre dépôt
   const path = 'downloads/systempresets-v2/images/1440p_SMF_fr';
 
   // Obtenir la date d'aujourd'hui sous forme de chaîne AAAA-MM-JJ
