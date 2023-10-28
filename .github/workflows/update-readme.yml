@@ -1,19 +1,24 @@
-   name: Update README
+name: Update README
 
-   on:
-     schedule:
-       - cron: '*/2 * * * *' # Runs every hour
+on:
+  schedule:
+    - cron: '*/2 * * * *' # Exécution toutes les heures
 
-   jobs:
-     build:
-       runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-       steps:
-         - name: Checkout code
-           uses: actions/checkout@v2
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v2
 
-         - name: Update README
-           run: |
-             # Your update script goes here
-           env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configurer Node.js
+        uses: actions/setup-node@v2
+
+      - name: Installer les dépendances
+        run: npm install
+
+      - name: Exécuter le script de mise à jour du README
+        run: node update-readme.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
