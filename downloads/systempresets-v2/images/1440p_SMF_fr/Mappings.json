@@ -1,0 +1,2331 @@
+[
+  {
+    "IdName": "CD_Reduction",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "cooldown reduction.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_036",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of disobedience.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_009",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of might.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_018",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of quicksand.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_071",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of retaliation.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_063",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of the aftershock.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_104",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of the rampaging werebeast.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_021",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of the umbral.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_066",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of the ursine horror.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_074",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "shockwave aspect.png"
+    ]
+  },
+  {
+    "IdName": "Damage_While_Shapeshifted",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage while shapeshifted.png"
+    ]
+  },
+  {
+    "IdName": "OverpowerDamage",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "overpower damage.png"
+    ]
+  },
+  {
+    "IdName": "Life",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum life.png"
+    ]
+  },
+  {
+    "IdName": "Armor",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "total armor.png"
+    ]
+  },
+  {
+    "IdName": "DamageReduction",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png"
+    ]
+  },
+  {
+    "IdName": "DamageReductionClose",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png",
+      "close.png"
+    ]
+  },
+  {
+    "IdName": "Luck",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lucky hit chance.png"
+    ]
+  },
+  {
+    "IdName": "CritChance",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "critical strike chance.png"
+    ]
+  },
+  {
+    "IdName": "CoreStats_All",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "all stats.png"
+    ]
+  },
+  {
+    "IdName": "AttackSpeed",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "attack speed.png"
+    ]
+  },
+  {
+    "IdName": "AttackSpeed_Basics",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "basic skill attack speed.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Category_Basics",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "basic skill damage.png"
+    ]
+  },
+  {
+    "IdName": "BloodOrb_Healing",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "blood orb healing.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Bone",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "bone skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Resistance_Single_Frost",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "cold resistance.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Companion",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "companion skill damage.png"
+    ]
+  },
+  {
+    "IdName": "CC_Duration_Reduction",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "control impaired duration.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Category_Spenders",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "core skill damage.png"
+    ]
+  },
+  {
+    "IdName": "CritDamage",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "critical strike damage.png"
+    ]
+  },
+  {
+    "IdName": "CC_Duration",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "crowd control duration.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Melee",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "cutthroat skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage %.png"
+    ]
+  },
+  {
+    "IdName": "Damage_DoT",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage over time.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Bleeding",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to bleeding enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Burning",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to burning enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Chilled",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to chilled enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Near",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to close enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_CCd",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to crowd controlled enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Dazed",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to dazed enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Far",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to distant enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Trapped",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to enemies affected by trap skills.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Frozen",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to frozen enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_LowLife",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to injured enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Poisoned",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to poisoned enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Slowed",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to slowed enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Stunned",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to stunned enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Weapon_DualWield",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage with dual-wielded weapons.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Darkness",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "darkness skill damage.png"
+    ]
+  },
+  {
+    "IdName": "CoreStat_Dexterity",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "dexterity.png"
+    ]
+  },
+  {
+    "IdName": "CoreStat_DexterityPercent",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "dexterity.png"
+    ]
+  },
+  {
+    "IdName": "Dodge_Ranged",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "dodge chance against distant enemies.png"
+    ]
+  },
+  {
+    "IdName": "Dodge",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "dodge chance.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Earth",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "earth skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Resource_Cost_Reduction_Rogue",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "energy cost reduction.png"
+    ]
+  },
+  {
+    "IdName": "Resource_Cost_Reduction_Necromancer",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "essence cost reduction.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Type_DoT_Bonus_Burn",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "fire damage over time.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Type_Bonus_Fire",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "fire damage.png"
+    ]
+  },
+  {
+    "IdName": "Resistance_Single_Fire",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "fire resistance.png"
+    ]
+  },
+  {
+    "IdName": "FortifyBonus",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "fortify generation.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Frost",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "frost skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Resource_Cost_Reduction_Barbarian",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "fury cost reduction.png"
+    ]
+  },
+  {
+    "IdName": "HealingPercent",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "healing received.png"
+    ]
+  },
+  {
+    "IdName": "Damage_With_Imbued",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "imbued skill damage.png"
+    ]
+  },
+  {
+    "IdName": "CDR_Imbues",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "imbuement skill cooldown.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Imbuements",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "imbuement skill damage.png"
+    ]
+  },
+  {
+    "IdName": "CoreStat_Intelligence",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "intelligence.png"
+    ]
+  },
+  {
+    "IdName": "CoreStat_IntelligencePercent",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "intelligence %.png"
+    ]
+  },
+  {
+    "IdName": "Life_On_Kill",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "life on kill.png"
+    ]
+  },
+  {
+    "IdName": "LifeRegen",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "life regeneration while not damaged recently.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Type_Bonus_Lightning",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lightning damage.png"
+    ]
+  },
+  {
+    "IdName": "Resource_Cost_Reduction_Sorcerer",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "mana cost reduction.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Ranged",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "marksman skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Resource_MaxEnergy",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum energy.png"
+    ]
+  },
+  {
+    "IdName": "Resource_MaxEssence",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum essence.png"
+    ]
+  },
+  {
+    "IdName": "Resource_MaxFury",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum fury.png"
+    ]
+  },
+  {
+    "IdName": "Resource_MaxMana",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum mana.png"
+    ]
+  },
+  {
+    "IdName": "Resource_MaxSpirit",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum spirit.png"
+    ]
+  },
+  {
+    "IdName": "Movement_Speed",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "movement speed.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Type_Bonus_Physical",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "physical damage.png"
+    ]
+  },
+  {
+    "IdName": "PotionDropBonus",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "potion drop rate.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Pyromancy",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "pyromancy skill damage.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Category_Conjuration",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of all conjuration skills.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Generic_Category_Core",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of all core skills.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Necro_Category_Corpse",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of all corpse skills.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Generic_Category_Defensive",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of all defensive skills.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Category_Imbuements",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of all imbuement skills.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Category_Mastery",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of all mastery skills.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_BallLightning",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of ball lightning.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Core_3",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of barrage.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_Blizzard",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of blizzard.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Necro_Core_1",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of bone spear.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Necro_Special_BoneSpirit",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of bone spirit.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Core_3",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of chain lightning.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Barb_Special_ChallengingShout",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of challenging shout.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Special_Concealment",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of concealment.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Necro_Special_CorpseTendrils",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of corpse tendrils.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Special_DarkShroud",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of dark shroud.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Special_Dash",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of dash.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_FlameShield",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of flame shield.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Core_2",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of flurry.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_FrostNova",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of frost nova.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Barb_Core_1_Slot01",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of hammer of the ancients.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_IceArmor",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of ice armor.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Core_2",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of ice shards.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Core_1",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of landslide.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Core_5",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of penetrating shot.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Special2_PoisonImbue",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of poison imbuement.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Special_PoisonTrap",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of poison trap.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Core_2",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of pulverize.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Barb_Special_RallyingCry",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of rallying cry.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Barb_Core_2_Slot01",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of rend.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Special_ShadowImbue",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of shadow imbuement.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Special_ShadowStep",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of shadow step.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_Teleport",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of teleport.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Druid_NatureMagic_T2_N2_CrushingEarth",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the crushing earth.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Druid_15_Envenom",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the envenom passive.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Rogue_Cunning_T3_N1_Exploit",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the exploit passive.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Rogue_Cunning_T4_N2_Malice",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the malice passives.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Rogue_Discipline_T2_N1_WeaponMastery",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the weapon mastery.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Barb_Core_4_Slot01",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of upheaval.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Barb_10_Wallop",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of wallop passive.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Barb_Core_5_Slot01",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of whirlwind.png"
+    ]
+  },
+  {
+    "IdName": "Trap_Arm_Time",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "reduces the arm time of your trap skills.png"
+    ]
+  },
+  {
+    "IdName": "Resistance_All",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "resistance to all elements.png"
+    ]
+  },
+  {
+    "IdName": "ResourceGain",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "resource generation.png"
+    ]
+  },
+  {
+    "IdName": "Damage_ShadowClone",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "shadow clone damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Type_Bonus_Shadow",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "shadow damage.png"
+    ]
+  },
+  {
+    "IdName": "Resistance_Single_Shadow",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "shadow resistance.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Shock",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "shock skill damage.png"
+    ]
+  },
+  {
+    "IdName": "ShrineDuration",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "shrine buff duration.png"
+    ]
+  },
+  {
+    "IdName": "CC_Duration_Reduction_Slow",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "slow duration reduction.png"
+    ]
+  },
+  {
+    "IdName": "Resource_Cost_Reduction_Druid",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "spirit cost reduction.png"
+    ]
+  },
+  {
+    "IdName": "CoreStat_Strength",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "strength.png"
+    ]
+  },
+  {
+    "IdName": "Thorns",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "thorns.png"
+    ]
+  },
+  {
+    "IdName": "Werebear_Armor",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "total armor while in werebear form.png"
+    ]
+  },
+  {
+    "IdName": "CDR_Traps",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "trap skill cooldown reduction.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Trap",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "trap skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Category_Ultimate",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ultimate skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Vulnerable",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "vulnerable damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Werebear",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "werebear skill damage.png"
+    ]
+  },
+  {
+    "IdName": "CoreStat_Willpower",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "willpower.png"
+    ]
+  },
+  {
+    "IdName": "DamageReduction_Poisoned",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png",
+      "poisoned.png"
+    ]
+  },
+  {
+    "IdName": "Resistance_Single_Lightning",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lightning resistance.png"
+    ]
+  },
+  {
+    "IdName": "Evade_Attack_Reset",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "attacks reduce evade\u0027s cooldown.png"
+    ]
+  },
+  {
+    "IdName": "CritDamage_With_Earth",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "critical strike damage.png",
+      "earth skills.png"
+    ]
+  },
+  {
+    "IdName": "OverpowerDamage_With_Bear",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "overpower damage.png",
+      "werebear skills.png"
+    ]
+  },
+  {
+    "IdName": "Resistance_Single_Poison",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "poison resistance.png"
+    ]
+  },
+  {
+    "IdName": "CritChance_To_LowLife",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "critical strike chance.png",
+      "injured enemies.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Category_Companion",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of all companion skills.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Druid_10_WildImpulses",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the wild impulses passive.png"
+    ]
+  },
+  {
+    "IdName": "CritDamage_With_Lightning",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lightning critical strike damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Type_Bonus_Poison",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "poison damage.png"
+    ]
+  },
+  {
+    "IdName": "CritDamage_With_Wolf",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "critical strike damage.png",
+      "werewolf.png"
+    ]
+  },
+  {
+    "IdName": "Lucky_Hit_Resource",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lucky hit.png",
+      "primary resource.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Storm",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "storm skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_While_Human",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage while in human form.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_CycloneArmor",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of cyclone armor.png"
+    ]
+  },
+  {
+    "IdName": "FortifyDamageReduction",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png",
+      "fortified.png"
+    ]
+  },
+  {
+    "IdName": "Lucky_Hit_Slow",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lucky hit.png",
+      "slow.png"
+    ]
+  },
+  {
+    "IdName": "DamageReductionDistant",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png",
+      "distant enemies.png"
+    ]
+  },
+  {
+    "IdName": "PotionCharges",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "potion capacity.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_Boulder",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of boulder.png"
+    ]
+  },
+  {
+    "IdName": "Execute",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lucky hit.png",
+      "injured non-elites.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_Ravens",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of ravens.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Core_4",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of lightning storm.png"
+    ]
+  },
+  {
+    "IdName": "Resource_Reduction_Storm",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "storm skill cooldown reduction.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Druid_NatureMagic_T4_N2_Defiance",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the defiance passive.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Druid_06_NaturesReach",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the nature\u0027s reach passive.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_BloodHowl",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of blood howl.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_VineCreeper",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of poison creeper.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_Hurricane",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of hurricane.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Core_3",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of tornado.png"
+    ]
+  },
+  {
+    "IdName": "Barrier_Strength_Percent",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "barrier generation.png"
+    ]
+  },
+  {
+    "IdName": "Werewolf_Armor",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "total armor.png",
+      "werewolf.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_DebilitatingRoar",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of debilitating roar.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_EarthenBulwark",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of earthen bulwark.png"
+    ]
+  },
+  {
+    "IdName": "Luck_With_Barrier",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lucky hit chance.png",
+      "barrier.png"
+    ]
+  },
+  {
+    "IdName": "Lucky_Hit_Daze",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lucky hit.png",
+      "daze.png"
+    ]
+  },
+  {
+    "IdName": "Lucky_Hit_Immobilize",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "lucky hit.png",
+      "immobilize.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Druid_Shapeshifting_T2_N3_CalloftheWild",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the call of the wild passive.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_Trample",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of trample.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Special_Wolves",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of wolves.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Werewolf",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "werewolf skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Dodge_Melee",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "dodge chance against close enemies.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Core_5",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of shred.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Hawe_AkkhansGrasp",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "akkhan\u0027s grasp.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Hawe_AncientReservoir",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "ancient reservoir.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Hawe_BastionOfFaith",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "bastion of faith.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Step_BetrayersRow",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "betrayer\u0027s row.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Step_CharnelHouse",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "charnel house.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Kehj_CollapsedVault",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "collapsed vault.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Frac_DeadMansDredge",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "dead man\u0027s dredge.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Scos_DomhainneTunnels",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "domhainne tunnels.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Hawe_FacelessShrine",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "faceless shrine.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Kehj_ForgottenRuins",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "forgotten ruins.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Scos_GaranHold",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "garan hold.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Kehj_HallsoftheDamned",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "halls of the damned.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Kehj_HereticsAsylum",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "heretics asylum.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Frac_HoarfrostDemise",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "hoarfrost demise.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Frac_ImmortalEmanation",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "immortal emanation.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Step_KomdorTemple",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "komdor temple.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Frac_KorValarRamparts",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "kor valar ramparts.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Hawe_LostKeep",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "lost keep.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Scos_MarinersRefuge",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "mariner\u0027s refuge.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Frac_MercysReach",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "mercy\u0027s reach.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Frac_NostravaDeepwood",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "nostrava deepwood.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Step_PallidDelve",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "pallid delve.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Step_PathoftheBlind",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "path of the blind.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Scos_SaratsLair",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "sarat\u0027s lair.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Step_ShiftingCity",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "shifting city.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Scos_Stockades",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "stockades.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Kehj_TomboftheSaints",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "tomb of the saints.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Scos_TwistedHollow",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "twisted hollow.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Kehj_UldursCave",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "uldur\u0027s cave.png"
+    ]
+  },
+  {
+    "IdName": "World_DGN_Hawe_IronHold",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "iron hold.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_DamageReductionForMissingHealth",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "battle hardened.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_FireDamage",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "fire damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_IncreasedCritChance",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "increased critical strike.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_PeriodicLightning",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "lightning caller.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_EvadePushesEnemies",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "nudging evade.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_PoisonDamage",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "poison damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_CooldownReductionOnKill",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "reduce cooldowns on kill.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_ShadowDamage",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "shadow damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_Thorns",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "thorns.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_SunderArmor",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "armor breakers.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Avenger",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "avenger.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_BarrierKiller",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "barrier breakers.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_DeathPulse",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "death pulse.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ReduceDodge",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "dodge breakers.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Drifting Shade",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "drifting shade.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Empowered Elites (Poison)",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "empowered elites (poison enchanted).png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Empowered Elites (Electric Lance)",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "empowered elites (shock lance).png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Empowered Elites (Suppressor)",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "empowered elites (suppressor).png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Lightning Storm",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "lightning storm.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessMelee",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "melee defenders.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_AttackFaster",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster attack speed.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_Barrier",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster barrier.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessBleeding",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster bleed resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ExtraBleeding",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster bleeding damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ExtraBurning",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster burning damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessBurning",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster burning resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ExtraCold",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster cold damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessCold",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster cold resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_AntiCrit",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster critical resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_AntiCC",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster crowd control resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ExtraFire",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster fire damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessFire",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster fire resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_HPBonus",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster life.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ExtraLightning",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster lightning damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_AntiOverpower",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster overpower resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessLightning",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster lightning resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessPhysical",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster physical resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ExtraPoison",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster poison damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessPoison",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster poison resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_HPRegen",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster regen.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ExtraCorruption",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster shadow damage over time.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_AntiVulnerable",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "monster vulnerable resist.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Nightmare Portal",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "nightmare portal.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_LessRanged",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "ranged defenders.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ReduceResistance",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "resistance breakers.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_ChanceSlow",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "slowing projectiles.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_StormbanesWrath",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "stormbane\u0027s wrath.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Minor_Monster_Unstoppable",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "unstoppable monsters.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Major_Volcanic",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "volcanic.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_113",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "symbiotic aspect.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_010",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of the calm breeze.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_113",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of audacity.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_PhysicalDamage",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "physical damage.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_StunCausesBurning",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "control impaired explosions.png"
+    ]
+  },
+  {
+    "IdName": "DungeonAffix_Positive_EvadeLeavesPoison",
+    "Folder": "Affixes\\Sigils",
+    "Images": [
+      "poisonous evade.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_109",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "stormshifter\u0027s aspect.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_038",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of retribution.png"
+    ]
+  },
+  {
+    "IdName": "legendary_druid_077",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "nighthowler\u0027s aspect.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_107",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of the deflecting barrier.png"
+    ]
+  },
+  {
+    "IdName": "Shield_Damage_Bonus",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "main hand weapon damage.png"
+    ]
+  },
+  {
+    "IdName": "PetHealth_Necro",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum minion life.png"
+    ]
+  },
+  {
+    "IdName": "EliteDamageReduction",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png",
+      "elites.png"
+    ]
+  },
+  {
+    "IdName": "DamageReductionInjured",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png",
+      "injured.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Druid_Basic_2",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of claw.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_Elite",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage %.png",
+      "elites.png"
+    ]
+  },
+  {
+    "IdName": "Damage_to_HighLife",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage to healthy enemies.png"
+    ]
+  },
+  {
+    "IdName": "CoreStat_WillpowerPercent",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "willpower %.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_067",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of the expectant.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_100",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "ghostwalker aspect.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Druid_Shapeshifting_T4_N1_Quickshift",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the quickshift passive.png"
+    ]
+  },
+  {
+    "IdName": "legendary_rogue_028",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of arrow storms.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_109",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of smiting.png"
+    ]
+  },
+  {
+    "IdName": "legendary_rogue_111",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "cheat\u0027s aspect.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Rogue_Cunning_T4_N1_FrigidFinesse",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of defrigid finesse.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Rogue_Cunning_T2_N2_DeadlyVenom",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of deadly venom.png"
+    ]
+  },
+  {
+    "IdName": "legendary_rogue_126",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of pestilent points.png"
+    ]
+  },
+  {
+    "IdName": "legendary_rogue_029",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of bursting venoms.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Rogue_Core_4",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of twisting blades.png"
+    ]
+  },
+  {
+    "IdName": "Legendary_Generic_110",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "accelerating aspect.png"
+    ]
+  },
+  {
+    "IdName": "legendary_rogue_113",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of corruption.png"
+    ]
+  },
+  {
+    "IdName": "legendary_generic_063",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "edgemasters aspect.png"
+    ]
+  },
+  {
+    "IdName": "legendary_rogue_118",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "ravagers aspect.png"
+    ]
+  },
+  {
+    "IdName": "legendary_rogue_116",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "umbrous aspect.png"
+    ]
+  },
+  {
+    "IdName": "DamageReduction_Burning",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "damage reduction.png",
+      "burning enemies.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Type_Bonus_Cold",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "cold damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Tag_Conjuration",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "conjuration skill damage.png"
+    ]
+  },
+  {
+    "IdName": "Damage_CracklingEnergy",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "crackling energy damage.png"
+    ]
+  },
+  {
+    "IdName": "AttackSpeed_Fireball",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "fireball attack speed.png"
+    ]
+  },
+  {
+    "IdName": "CC_Duration_Freeze",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "freeze duration.png"
+    ]
+  },
+  {
+    "IdName": "Damage_Category_SorcMastery",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "mastery skill damage.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Necro_Core_6",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of blood lance.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Core_4",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of charged bolts.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Sorc_Fire_T2_N3_DevouringFlames",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of devouring blaze.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Sorc_Fire_T2_N2_EndlessPyre",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of endless pyre.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Core_1",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of fireball.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_Firewall",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of firewall.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Core_6",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of frozen orb.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Sorc_Elemental_T2_N1_GlassCannon",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of glass cannon.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_Hydra",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of hydra.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_IceBlades",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of ice blades.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Core_5",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of incinerate.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Sorc_Fire_T1_N2_InnerFlames",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of inner flames.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_LightningSpear",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of lightning spear.png"
+    ]
+  },
+  {
+    "IdName": "SkillRankBonus_Sorc_Special_Meteor",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of meteor.png"
+    ]
+  },
+  {
+    "IdName": "Evade_Charges",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum evade charges.png"
+    ]
+  },
+  {
+    "IdName": "PotionBarrier",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "maximum life as barrier.png"
+    ]
+  },
+  {
+    "IdName": "PassiveRankBonus_Necro_Playstyle_T1_N2_TidesofBlood",
+    "Folder": "Affixes\\Equipment",
+    "Images": [
+      "ranks of the tides of blood passive.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_123",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of gore quills.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_066",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of grasping veins.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_029",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of hungry blood.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_113",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of potent blood.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_111",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of rathma\u2019s chosen.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_054",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "aspect of shielding storm.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_028",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "blood seeker\u2019s aspect.png"
+    ]
+  },
+  {
+    "IdName": "legendary_necro_116",
+    "Folder": "Aspects\\Equipment",
+    "Images": [
+      "sacrificial aspect.png"
+    ]
+  }
+]
