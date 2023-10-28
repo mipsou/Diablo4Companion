@@ -18,3 +18,50 @@
            env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
    
+   name: Update README
+
+   on:
+     schedule:
+       - cron: '0 * * * *' # Runs every hour
+
+   jobs:
+     build:
+       runs-on: ubuntu-latest
+
+       steps:
+         - name: Checkout code
+           uses: actions/checkout@v2
+
+         - name: Update README
+           run: |
+             # Your update script goes here
+               const { Octokit } = require('octokit');
+               const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+            
+               async function updateReadme() {
+                 // Fetch information about your repository's files here and calculate progress
+                 const totalFiles = 100; // Total number of files
+                 const completedFiles = 40; // Number of completed files
+            
+                 const progress = (completedFiles / totalFiles) * 100;
+            
+                 const readmeContent = `# Project Progress
+            
+               Progress: ${progress.toFixed(2)}%
+            
+               ![Progress Bar](https://progress-bar.dev/${progress})`;
+            
+                 const response = await octokit.repos.createOrUpdateFile({
+                   owner: 'mipsou',
+                   repo: 'Diablo4Companion',
+                   path: 'README.md',
+                   message: 'Update progress in README',
+                   content: Buffer.from(readmeContent).toString('base64'),
+                 });
+            
+                 console.log('README.md updated:', response.data.commit.sha);
+               }
+            
+               updateReadme().catch(console.error);
+           env:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
