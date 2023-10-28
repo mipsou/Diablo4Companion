@@ -16,4 +16,4 @@
            run: |
              # Your update script goes here
            env:
-             GITHUB_TOKEN: ${{ secrets.update_readme }}
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
