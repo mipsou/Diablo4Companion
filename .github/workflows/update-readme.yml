@@ -2,7 +2,7 @@
 
    on:
      schedule:
-       - cron: '0 * * * *' # Runs every hour
+       - cron: '47 * * * *' # Runs every hour
 
    jobs:
      build:
