@@ -4,8 +4,8 @@ on:
   schedule:
     - cron: '*/2 * * * *' # Exécution toutes les heures
   # push:
-  branches:
-    - main
+    # branches:
+    #   - main
 
 jobs:
   update-readme:
