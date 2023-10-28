@@ -26,6 +26,6 @@ jobs:
 
     # Ajoutez cette étape pour exécuter votre script C# après la construction et les tests
     - name: Exécuter le script de mise à jour du README
-      run: dotnet scripts/update_readme
+      run: dotnet run --project scripts/update_readme.csproj
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
