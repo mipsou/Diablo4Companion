@@ -22,5 +22,8 @@ jobs:
       - name: Compilation du script C#
         run: csc /out:scripts/update-readme.exe scripts/update-readme.cs
       
-      - name: Exécuter le script C#
-        run: dotnet scripts/update-readme.dll
+        - name: Exécuter le script C#
+        run: ./scripts/update-readme.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      

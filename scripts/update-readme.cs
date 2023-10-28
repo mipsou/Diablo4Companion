@@ -1,28 +1,40 @@
 using System;
-using System.IO;
+using Octokit;
+using System.Threading.Tasks;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        // Chemin du fichier README.md
-        string readmePath = "README.md";
+        string githubToken = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
 
-        // Progression à mettre à jour
-        int progression = 75; // Exemple : progression à 75%
+        if (string.IsNullOrEmpty(githubToken))
+        {
+            Console.WriteLine("Le jeton GitHub n'est pas disponible.");
+            return;
+        }
+
+        var client = new GitHubClient(new ProductHeaderValue("MyGitHubApp"));
+        var tokenAuth = new Credentials(githubToken);
+
+        client.Credentials = tokenAuth;
+
+        // Exemple : Mise à jour du contenu du fichier README.md
+        string owner = "votre-nom-d-utilisateur";
+        string repo = "votre-nom-de-référentiel";
+        string branch = "main"; // Remplacez par la branche que vous utilisez
+
+        string readmePath = "README.md"; // Chemin du fichier README.md
 
         try
         {
-            // Lecture du contenu actuel du fichier README.md
-            string existingContent = File.ReadAllText(readmePath);
+            // Lisez le contenu actuel du fichier README.md
+            var existingReadme = await client.Repository.Content.GetAllContentsByRef(owner, repo, readmePath, branch);
 
-            // Mise à jour du contenu du README.md avec la progression
-            string updatedContent = existingContent.Replace("Progression actuelle :", $"Progression actuelle : {progression}%");
+            // Mettez à jour le contenu du fichier README.md
+            string newContent = "Votre nouveau contenu à mettre à jour.";
 
-            // Écriture du contenu mis à jour dans le fichier README.md
-            File.WriteAllText(readmePath, updatedContent);
-
-            Console.WriteLine("Mise à jour du README.md effectuée avec succès.");
+            await client.Repository.Content.UpdateFile(owner, repo, readmePath, new UpdateFileRequest("Mise à jour du README.md", newContent, existingReadme.Sha, branch));
         }
         catch (Exception ex)
         {
