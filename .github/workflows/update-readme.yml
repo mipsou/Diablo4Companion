@@ -4,7 +4,7 @@ name: Update-README
 #   schedule:
 #     - cron: '*/2 * * * *' # Exécution toutes les heures
 
-name: Update README
+name: Update-README
 
 on:
   push:
