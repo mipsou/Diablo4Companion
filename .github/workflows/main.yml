@@ -1,15 +1,14 @@
 name: Update README
 
 on:
-  # push:
-  #   branches:
-  #     - main  # Exécutez le workflow lorsque vous poussez sur la branche principale (ou la branche de votre choix)
-
   workflow_dispatch: {}  # Cela permettra de déclencher manuellement le workflow
     inputs:
       gh_token:
-        description: 'UPDATE_README'
+        description: 'GitHub Token'
         required: true
+  # push:
+  #   branches:
+  #     - main  # Exécutez le workflow lorsque vous poussez sur la branche principale (ou la branche de votre choix)
 
 jobs:
   update-readme:
