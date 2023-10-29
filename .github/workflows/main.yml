@@ -1,6 +1,4 @@
-name: Update README
-
-name: Update README
+name: Update_README
 
 on:
   workflow_dispatch:  # Cela permettra de déclencher manuellement le workflow
