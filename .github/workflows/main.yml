@@ -1,7 +1,9 @@
 name: Update README
 
+name: Update README
+
 on:
-  workflow_dispatch: {}  # Cela permettra de déclencher manuellement le workflow
+  workflow_dispatch:  # Cela permettra de déclencher manuellement le workflow
     inputs:
       gh_token:
         description: 'GitHub Token'
