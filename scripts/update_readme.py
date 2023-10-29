@@ -8,7 +8,8 @@ github_token = os.environ['INPUT_GH_TOKEN']
 g = Github("UPDATE_README")
 
 # Créer une instance Github en utilisant le jeton
-g = Github(github_token)
+# g = Github(github_token)
+# g = Github(github_token)
 
 # Accéder au référentiel
 repo = g.get_repo("mipsou/Diablo4Companion")
