@@ -1,4 +1,4 @@
-name: Update_README
+name: Update-README
 
 on:
   push:
