@@ -6,6 +6,10 @@ on:
       - main  # Exécutez le workflow lorsque vous poussez sur la branche principale (ou la branche de votre choix)
 
   workflow_dispatch: {}  # Cela permettra de déclencher manuellement le workflow
+    inputs:
+      gh_token:
+        description: 'UPDATE_README'
+        required: true
 
 jobs:
   update-readme:
