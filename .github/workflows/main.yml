@@ -1,14 +1,11 @@
-name: Update-README
+name: Update README
 
 on:
-  workflow_dispatch:
-  
-#  push:
-#    branches:
-#      - main  # Exécutez le workflow lorsque vous poussez sur la branche principale (personnalisez selon vos besoins)
+  push:
+    branches:
+      - main  # Exécutez le workflow lorsque vous poussez sur la branche principale (ou la branche de votre choix)
 
-  # schedule: 
-  #   - cron: '*/2 * * * *' # Exécution toutes les heures
+  workflow_dispatch: {}  # Cela permettra de déclencher manuellement le workflow
 
 jobs:
   update-readme:
@@ -23,8 +20,11 @@ jobs:
       with:
         python-version: 3.x  # Utilisez la version de Python dont vous avez besoin
 
+    - name: Install PyGithub
+      run: pip install PyGithub  # Installe le module PyGithub
+
     - name: Run Python script
-      run: python scripts/update_readme.py
+      run: python scripts/update_readme.py  # Assurez-vous que le chemin du script est correct
       working-directory: ${{ github.workspace }}
 
     - name: Commit and push changes
