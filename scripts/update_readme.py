@@ -1,18 +1,18 @@
 from github import Github
-# Authentication is defined via github.Auth
-from github import Auth
-
 import os
-import datetime
 
-# Remplacez "YOUR_ACCESS_TOKEN" par votre propre jeton d'accès GitHub
-g = Github("UPDATE_README")
+# Récupérer le jeton GitHub à partir de la variable d'environnement
+github_token = os.environ['INPUT_GH_TOKEN']
+
+# Créer une instance Github en utilisant le jeton
+g = Github(github_token)
 
 # Accéder au référentiel
 repo = g.get_repo("mipsou/Diablo4Companion")
 
 # Accéder au contenu du README
 readme = repo.get_readme()
+
 
 # Mise à jour du contenu du README
 new_content = "Nouveau contenu pour le README"
