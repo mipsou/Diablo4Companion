@@ -2,7 +2,7 @@ from github import Github
 import os
 
 # Récupérer le jeton GitHub à partir de la variable d'environnement
-github_token = os.environ['INPUT_GH_TOKEN']
+# github_token = os.environ['INPUT_GH_TOKEN']
 
 # Remplacez "YOUR_ACCESS_TOKEN" par votre jeton d'accès GitHub par défaut
 g = Github("UPDATE_README")
