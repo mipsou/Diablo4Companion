@@ -19,8 +19,8 @@ readme = repo.get_readme()
 
 
 # Mise à jour du contenu du README
-new_content = "Nouveau contenu pour le README"
-repo.update_file(readme.path, "Mise à jour du README", new_content, readme.sha)
+# new_content = "Nouveau contenu pour le README"
+# repo.update_file(readme.path, "Mise à jour du README", new_content, readme.sha)
 
 import requests
 
